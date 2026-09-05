@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <title>Form detection</title>
+</head>
+<body>
+  <form name="enquiry" method="POST" action="/thank-you/" netlify data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="enquiry">
+    <p class="hidden"><label>Don’t fill this out <input name="bot-field"></label></p>
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <textarea name="message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <form name="contact" method="POST" action="/thank-you/" netlify data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact">
+    <p class="hidden"><label>Don’t fill this out <input name="bot-field"></label></p>
+    <input type="text" name="Name">
+    <input type="email" name="email">
+    <input type="tel" name="phone">
+    <input type="checkbox" name="services" value="Support Coordination">
+    <input type="checkbox" name="services" value="Recovery Coaching">
+    <input type="checkbox" name="services" value="Counselling">
+    <input type="checkbox" name="services" value="Social Work">
+    <input type="checkbox" name="services" value="Support Work">
+    <input type="checkbox" name="services" value="Cleaning Services">
+    <input type="checkbox" name="services" value="Animal Experiences">
+    <textarea name="message"></textarea>
+    <button type="submit">Request More Information</button>
+  </form>
+
+  <form name="get-started" method="POST" action="/thank-you/" netlify data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="get-started">
+    <p class="hidden"><label>Don’t fill this out <input name="bot-field"></label></p>
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <input type="tel" name="phone">
+    <input type="checkbox" name="services" value="Support-Coordination">
+    <input type="checkbox" name="services" value="Recovery-Coaching">
+    <input type="checkbox" name="services" value="Gardening">
+    <input type="checkbox" name="services" value="Art">
+    <input type="checkbox" name="services" value="Sports">
+    <input type="checkbox" name="services" value="Cleaning-Services">
+    <input type="checkbox" name="services" value="Support-Work">
+    <input type="checkbox" name="services" value="Animal-Experiences">
+    <input type="checkbox" name="services" value="Other">
+    <textarea name="message"></textarea>
+    <button type="submit">Request More Information</button>
+  </form>
+</body>
+</html>
