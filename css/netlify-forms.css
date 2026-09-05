@@ -1,0 +1,123 @@
+.d2a-static-form {
+  width: 100%;
+}
+
+.d2a-static-form .nf-field-container {
+  clear: both;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.d2a-static-form .nf-element,
+.d2a-static-form input[type="text"],
+.d2a-static-form input[type="email"],
+.d2a-static-form input[type="tel"],
+.d2a-static-form textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-size: 16px;
+  font-family: inherit;
+  background: #fff;
+  color: #333;
+}
+
+.d2a-static-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.d2a-static-form .nf-field-label label {
+  display: block;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.d2a-static-form .d2a-checkbox-list {
+  display: grid;
+  gap: 8px;
+}
+
+.d2a-static-form .d2a-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.d2a-static-form .d2a-checkbox-item input {
+  width: auto;
+  margin: 0;
+}
+
+.d2a-static-form .d2a-submit,
+.d2a-static-form input[type="submit"] {
+  appearance: none;
+  border: 0;
+  border-radius: 4px;
+  background: #2bb673;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 28px;
+  cursor: pointer;
+  width: auto;
+}
+
+.d2a-static-form .d2a-submit:hover,
+.d2a-static-form input[type="submit"]:hover {
+  background: #23965f;
+}
+
+.hidden-bot-field {
+  display: none !important;
+}
+
+.d2a-thankyou {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  background: #f6f8f7;
+  color: #222;
+}
+
+.d2a-thankyou-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 72px 24px;
+  text-align: center;
+}
+
+.d2a-thankyou-inner img {
+  max-width: 280px;
+  height: auto;
+  margin-bottom: 28px;
+}
+
+.d2a-thankyou-inner h1 {
+  font-size: 34px;
+  margin: 0 0 16px;
+}
+
+.d2a-thankyou-inner p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+
+.d2a-thankyou-inner a {
+  display: inline-block;
+  background: #2bb673;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 4px;
+}
+
+.d2a-thankyou-inner a:hover {
+  background: #23965f;
+}

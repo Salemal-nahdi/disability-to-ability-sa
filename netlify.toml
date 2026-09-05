@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+
+[build.processing]
+  skip_processing = false
+
+[[redirects]]
+  from = "/careers"
+  to = "/careers.html"
+  status = 200
+
+[[redirects]]
+  from = "/careers/"
+  to = "/careers.html"
+  status = 200
