@@ -1,3 +1,9 @@
+img.lazyload,
+img.lazyloading,
+.lazyload {
+  opacity: 1 !important;
+}
+
 .d2a-static-form {
   width: 100%;
 }
