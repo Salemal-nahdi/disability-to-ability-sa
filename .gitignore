@@ -3,3 +3,7 @@
 .idea
 .vscode
 *.log
+
+# Local maintenance scripts; the site is published from the repo root, so these
+# stay out of the deployed files.
+tools/
