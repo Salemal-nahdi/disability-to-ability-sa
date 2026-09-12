@@ -193,7 +193,7 @@
   src:  url('../../uploads/fusion-icons/Business-v3.8/fonts/Business.eot') format('embedded-opentype'),
     url('../../uploads/fusion-icons/Business-v3.8/fonts/Business.ttf') format('truetype'),
     url('../../uploads/fusion-icons/Business-v3.8/fonts/Business.woff') format('woff'),
-    url('https://disabilitytoabilitysa.com.au/wp-content/uploads/fusion-icons/Business-v3.8/fonts/Business.svg#Business') format('svg');
+    url('/wp-content/uploads/fusion-icons/Business-v3.8/fonts/Business.svg#Business') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
